@@ -4,7 +4,7 @@ from fastapi import HTTPException
 from typing import List
 from ..schemas.prop import PropCreate, PropUpdate, PropResp
 
-client = MongoClient("mongodb://localhost:27017/")
+client = MongoClient("mongodb+srv://ud9211:bEPLXA3jb6tjYw72@cls1.funvk5o.mongodb.net/?retryWrites=true&w=majority&appName=cls1")
 db = client.prop_mgmt
 prop_col = db.props
 
